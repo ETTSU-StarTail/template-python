@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "template-python"
+version = "0.1.0"
+description = "my template for python project"
+authors = ["ETTSU-StarTail <skywish_arrow@yahoo.co.jp>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+flake8 = "^4.0.1"
+flake8-bugbear = "^22.6.22"
+flake8-black = "^0.3.3"
+mypy = "^0.961"
+isort = "^5.10.1"
+pre-commit = "^2.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
